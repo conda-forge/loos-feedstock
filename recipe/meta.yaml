@@ -1,5 +1,5 @@
 {% set name = "loos" %}
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/GrossfieldLab/loos/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: a0c4a0c9ed367a1b8cb6ed22fe08e24a8b4a78785d072e8be96013c9839f6671
+  sha256: 97381deb97664c6e87159703c982f4f4cf9032034d52cba20ec28e21ff0e7ae1
 
 build:
   skip: true  # [win]
