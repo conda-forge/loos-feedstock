@@ -25,7 +25,7 @@ requirements:
     - numpy
     - boost-cpp
     - libblas
-    - libnetcdf <4.9
+    - libnetcdf
     - liblapack
     - eigen
     
