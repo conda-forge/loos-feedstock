@@ -24,7 +24,7 @@ requirements:
     - pip
     - numpy
     - boost-cpp
-    - libblas
+    - openblas
     - libnetcdf
     - liblapack
     - eigen
