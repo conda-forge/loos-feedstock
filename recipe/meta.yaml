@@ -28,6 +28,7 @@ requirements:
     - libnetcdf
     - liblapack
     - eigen
+    - zlib
     
   run:
     - python
