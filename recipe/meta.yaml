@@ -28,6 +28,7 @@ requirements:
     - libnetcdf
     - liblapack
     - eigen
+    - gemmi
     - zlib
     
   run:
