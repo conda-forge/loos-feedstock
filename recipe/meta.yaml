@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -24,7 +24,9 @@ requirements:
     - python
     - pip
     - numpy =1
+    - libboost
     - libboost-devel
+    - libboost-headers
     - openblas
     - libnetcdf
     - liblapack
@@ -35,6 +37,8 @@ requirements:
   run:
     - python
     - {{ pin_compatible('numpy') }}
+    - {{ pin_compatible('libboost') }}
+    - {{ pin_compatible('libboost-devel') }}
     - scipy
     - scikit-learn
     - gemmi
