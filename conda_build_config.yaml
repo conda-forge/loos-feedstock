@@ -10,29 +10,9 @@ libboost-devel:
   - 1.84
   - 1.85
   - 1.86
-libboost-python: 
-  - 1.84
-  - 1.85
-  - 1.86
-libboost-python-devel: 
-  - 1.84
-  - 1.85
-  - 1.86
-libboost-headers: 
-  - 1.84
-  - 1.85
-  - 1.86
-boost-cpp: 
-  - 1.84
-  - 1.85
-  - 1.86
 zip_keys:
   - boost
   - libboost
   - libboost-devel
-  - libboost-python
-  - libboost-python-devel
-  - libboost-headers
-  - boost-cpp
 pin_run_as_build:
   boost: x.x
