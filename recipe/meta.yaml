@@ -35,6 +35,10 @@ requirements:
     - python
     - {{ pin_compatible('numpy') }}
     - {{ pin_compatible('boost-cpp') }}
+    - {{ pin_compatible('libboost') }}
+    - {{ pin_compatible('libboost-devel') }}
+    - {{ pin_compatible('libboost-python') }}
+    - {{ pin_compatible('libboost-python-devel') }}
     - scipy
     - scikit-learn
     - boost-cpp
