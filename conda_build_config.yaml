@@ -1,18 +1,6 @@
-boost:
-  - 1.84
-  - 1.85
-  - 1.86
-libboost: 
-  - 1.84
-  - 1.85
-  - 1.86
 libboost-devel: 
   - 1.84
   - 1.85
   - 1.86
-zip_keys:
-  - boost
-  - libboost
-  - libboost-devel
 pin_run_as_build:
-  boost: x.x
+  libboost-boost: x.x
