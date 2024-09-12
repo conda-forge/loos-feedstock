@@ -3,4 +3,4 @@ libboost-devel:
   - 1.85
   - 1.86
 pin_run_as_build:
-  libboost-boost: x.x
+  libboost: x.x
