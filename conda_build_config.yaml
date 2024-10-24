@@ -1,4 +1,4 @@
-libboost_devel: 
+libboost-devel: 
   - 1.84
   - 1.85
   - 1.86
