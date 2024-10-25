@@ -33,6 +33,7 @@ requirements:
     - eigen
     - gemmi
     - zlib
+    - setuptools
     
   run:
     - python
