@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -19,22 +19,27 @@ requirements:
     - {{ stdlib("c") }}
     - cmake
     - make
-    - swig
+    - swig =4.2.1
   host:
     - python
     - pip
     - numpy =1
+    - libboost
     - libboost-devel
+    - libboost-headers
     - openblas
     - libnetcdf
     - liblapack
     - eigen
     - gemmi
     - zlib
+    - setuptools
     
   run:
     - python
     - {{ pin_compatible('numpy') }}
+    - {{ pin_compatible('libboost') }}
+    - {{ pin_compatible('libboost-devel') }}
     - scipy
     - scikit-learn
     - gemmi
