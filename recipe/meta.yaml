@@ -19,7 +19,7 @@ requirements:
     - {{ stdlib("c") }}
     - cmake
     - make
-    - swig = 4.2.1
+    - swig =4.2.1
   host:
     - python
     - pip
