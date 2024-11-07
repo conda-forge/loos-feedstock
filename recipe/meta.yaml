@@ -21,6 +21,7 @@ requirements:
     - cmake
     - make
     - swig
+    - python >=3.9
   host:
     - python >=3.9
     - pip
