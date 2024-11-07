@@ -19,11 +19,11 @@ requirements:
     - {{ stdlib("c") }}
     - cmake
     - make
-    - swig =4.2.1
+    - swig
   host:
     - python
     - pip
-    - numpy =1
+    - numpy
     - libboost
     - libboost-devel
     - libboost-headers
