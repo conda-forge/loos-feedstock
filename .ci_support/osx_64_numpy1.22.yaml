@@ -19,7 +19,7 @@ libboost_devel:
 libboost_headers:
 - '1.86'
 liblapack:
-- 3.9 *netlib
+- 3.9.* *netlib
 libnetcdf:
 - 4.9.2
 macos_machine:
