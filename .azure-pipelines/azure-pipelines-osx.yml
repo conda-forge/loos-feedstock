@@ -8,17 +8,35 @@ jobs:
     vmImage: macOS-13
   strategy:
     matrix:
-      osx_64_numpy1.22:
-        CONFIG: osx_64_numpy1.22
+      osx_64_libboost_devel1.85numpy1.22python3.10.____cpython:
+        CONFIG: osx_64_libboost_devel1.85numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.23:
-        CONFIG: osx_64_numpy1.23
+      osx_64_libboost_devel1.85numpy1.22python3.9.____cpython:
+        CONFIG: osx_64_libboost_devel1.85numpy1.22python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy1.26:
-        CONFIG: osx_64_numpy1.26
+      osx_64_libboost_devel1.85numpy1.23python3.11.____cpython:
+        CONFIG: osx_64_libboost_devel1.85numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_numpy2:
-        CONFIG: osx_64_numpy2
+      osx_64_libboost_devel1.85numpy1.26python3.12.____cpython:
+        CONFIG: osx_64_libboost_devel1.85numpy1.26python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libboost_devel1.85numpy2python3.13.____cp313:
+        CONFIG: osx_64_libboost_devel1.85numpy2python3.13.____cp313
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libboost_devel1.86numpy1.22python3.10.____cpython:
+        CONFIG: osx_64_libboost_devel1.86numpy1.22python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libboost_devel1.86numpy1.22python3.9.____cpython:
+        CONFIG: osx_64_libboost_devel1.86numpy1.22python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libboost_devel1.86numpy1.23python3.11.____cpython:
+        CONFIG: osx_64_libboost_devel1.86numpy1.23python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libboost_devel1.86numpy1.26python3.12.____cpython:
+        CONFIG: osx_64_libboost_devel1.86numpy1.26python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libboost_devel1.86numpy2python3.13.____cp313:
+        CONFIG: osx_64_libboost_devel1.86numpy2python3.13.____cp313
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}
