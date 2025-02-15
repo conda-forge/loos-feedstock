@@ -39,9 +39,9 @@ requirements:
     
   run:
     - python >=3.9
-    - {{ pin_compatible('numpy') }}
-    - {{ pin_compatible('libboost') }}
-    - {{ pin_compatible('libboost-devel') }}
+    - numpy
+    - libboost
+    - libboost-devel
     - scipy
     - scikit-learn
     - gemmi
