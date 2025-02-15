@@ -26,9 +26,7 @@ requirements:
     - python >=3.9
     - pip
     - numpy
-    - libboost
     - libboost-devel
-    - libboost-headers
     - openblas
     - libnetcdf
     - liblapack
@@ -40,8 +38,6 @@ requirements:
   run:
     - python >=3.9
     - numpy
-    - libboost
-    - libboost-devel
     - scipy
     - scikit-learn
     - gemmi

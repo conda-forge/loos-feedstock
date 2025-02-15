@@ -16,8 +16,6 @@ cxx_compiler_version:
 - '18'
 libboost_devel:
 - '1.86'
-libboost_headers:
-- '1.86'
 liblapack:
 - 3.9.* *netlib
 libnetcdf:
