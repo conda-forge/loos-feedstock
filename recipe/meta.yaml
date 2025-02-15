@@ -21,9 +21,9 @@ requirements:
     - cmake
     - make
     - swig
-    - python >=3.9
+    - python
   host:
-    - python >=3.9
+    - python
     - pip
     - numpy
     - libboost-devel
@@ -36,7 +36,7 @@ requirements:
     - setuptools
     
   run:
-    - python >=3.9
+    - python
     - numpy
     - scipy
     - scikit-learn
