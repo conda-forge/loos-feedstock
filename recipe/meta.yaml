@@ -1,5 +1,5 @@
 {% set name = "loos" %}
-{% set version = "4.1.1" %}
+{% set version = "4.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://github.com/GrossfieldLab/loos/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 960021fa954ec439c1a0d9461752c49549a62329d30b646415c0f6bec61c58a8
+  sha256: ee617cebb8a3a7041fcdf2e5a6ab53359677c5aedde35d6c188bee3e9a08f173
 
 build:
   skip: true  # [win]
-  number: 2
+  number: 0
 
 requirements:
   build:
@@ -21,14 +21,12 @@ requirements:
     - cmake
     - make
     - swig
-    - python >=3.9
+    - python
   host:
-    - python >=3.9
+    - python
     - pip
     - numpy
-    - libboost
     - libboost-devel
-    - libboost-headers
     - openblas
     - libnetcdf
     - liblapack
@@ -38,10 +36,8 @@ requirements:
     - setuptools
     
   run:
-    - python >=3.9
-    - {{ pin_compatible('numpy') }}
-    - {{ pin_compatible('libboost') }}
-    - {{ pin_compatible('libboost-devel') }}
+    - python
+    - numpy >=1.26
     - scipy
     - scikit-learn
     - gemmi
