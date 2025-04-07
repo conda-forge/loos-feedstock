@@ -4,3 +4,4 @@ libboost_devel:
   - 1.86
 pin_run_as_build:
   libboost: x.x
+  gemmi: x.x
