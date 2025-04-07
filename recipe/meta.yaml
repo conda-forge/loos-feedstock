@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/GrossfieldLab/loos/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ee617cebb8a3a7041fcdf2e5a6ab53359677c5aedde35d6c188bee3e9a08f173
+  sha256: 53a064130fa5dfb84a9e593fd20dc782f2007daacf149220c8acf89c8177dad7
 
 build:
   skip: true  # [win]
