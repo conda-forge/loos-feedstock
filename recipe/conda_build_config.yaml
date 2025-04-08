@@ -5,3 +5,6 @@ libboost_devel:
 pin_run_as_build:
   libboost: x.x
   gemmi: x.x
+  hdf5
+  libnetcdf
+  
