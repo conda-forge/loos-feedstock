@@ -1,7 +1,7 @@
 libboost_devel: 
-  - 1.84
-  - 1.85
   - 1.86
+  - 1.87
+  - 1.88
 pin_run_as_build:
   libboost: x.x
   gemmi: x.x.x
